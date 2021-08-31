@@ -52,31 +52,86 @@ link to finished codepen: https://codepen.io/Stewart3531/pen/GREZJyJ?editors=110
     Styling your web page.
 
     18. How to we select an element? Example - every h2 on the page
-    
+    h2 {
+
+    }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class is used to select multiple elements and give them the same styling attributes. For example all lists might have a class of <ul class="list-info">. An id would be used to give specificity to only one element that is unique, for example <h1 id="main-heading">.
+
     20. How do we select classes in CSS?
+    With a .class
+
     21. How do we select a p element with a single class of “human””?
+    p .human
+
     22. What is a parent child selector? When would this be useful? 
+    This is when you reference both the parent and child in a CSS style callout. It helps when you need to target a specific html element.
+
     23. How do you select all links within a div with the class of sidebar?
+    div a .sidebar {
+
+    }
+
     24. What is a pseudo selector?
+    A selector used to syle a specific part of an element.
+
     25. What do we use the change the spacing between lines?
+    line-height: value;
+
     26. What do we use to change the spacing between letters?
+    letter-spacing: value;
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: value;
+
     28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px dotted black;
+    }
+
     29. How do I select everything on the page? 
+    * {
+
+    }
+
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+    /* This is a comment */
+
+    31. How do I find out what file I am in, when I am using the command line?
+     pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    dir
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+    rm <file>. Once a file is deleted you will loose everything.
+
+    34. Why should I use version control?
+    Version controll allows for multiple checkpoints that can easily be reffered to for fixes or reference.
+
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+    Around every 20 minutes.
+
+    36. What is the command we would use to push our repo up to github?
+    git push -u origin (branch-name)
+
+    37. Walk me through Lambda's git flow.
+    Fork your own version of the repo, clone it in the appropriate file via GitBash, cd into your forked repo, create your own branch, work on project, git add, git commit, and git push as necessary, create pull request.
+
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    An inline element can share space to the right and left of other elements, block element can not.
+
+    2. What happens when an element is positioned absolutely?
+    Nothing can interfere with its position.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+     width: max-content;
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    img, p and div are block elements by default. Button, span, are display inline by default, select is inline-block by default.
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+     
