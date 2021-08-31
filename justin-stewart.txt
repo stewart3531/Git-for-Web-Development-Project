@@ -19,18 +19,40 @@ link to finished codepen: https://codepen.io/Stewart3531/pen/GREZJyJ?editors=110
     <!DOCTYPE html>
 
     7. What is an id?
-     
+    An id is an attribute associated with a tag that refrences a specific name.
+
     8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
+    Any element can have an id, but it must be unique and used only once.
+
+    9. How many times can I use the same id on a page?
+    1 time only. 
+
     10. What is a class? 
-    11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
+    Classes can be assigned to html tags to reference for styling purposes in CSS.
+
+    11. What elements can I add a class to?
+    Any element can have a class.
+
+    12. How many times can I use the same class on a page?
+    Unlimited.
+
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
+    You will need to add the target="_blank" attribute to your anchor tab following your url.
+
+    14. What is the alt attribute in the image tag used for?
+    In case the image canot render on a specific users browser, or in the case of using a screen reader, the alt message will be displayed or read.
+
     15. How do I reference an id?
+    <tag id="id-name"></tag>
+
     16. What is the difference between a section and a div
-    17. What is CSS used for? 
+    Functionaly they are interchangible, however a div tag is mostly used for styling purposes only.
+
+    17. What is CSS used for?
+    Styling your web page.
+
     18. How to we select an element? Example - every h2 on the page
+    
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
     20. How do we select classes in CSS?
     21. How do we select a p element with a single class of “human””?
